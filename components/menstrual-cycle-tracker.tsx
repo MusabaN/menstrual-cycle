@@ -1,10 +1,10 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Progress } from "@/components/ui/progress"
+import { Button } from "@/components/ui/Button"
+import { Input } from "@/components/ui/DateInput"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/Card"
+import { Progress } from "@/components/ui/Progress"
 
 export default function MenstrualCycleTracker() {
   const [startDate, setStartDate] = useState('')
